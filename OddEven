@@ -20,7 +20,8 @@ int main()
 		}
 		cout << "Enter Y or y to check another number: \n";
 		cin >> choose;
-	} while (choose == 'Y' || choose == 'y');
+	} 
+	while (choose == 'Y' || choose == 'y');
 
 	cout << "End of Program.\n";
 	return 0;
