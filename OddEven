@@ -1,0 +1,29 @@
+//OddEven.cpp : This file contains the 'main' function. Program execution begins and ends there.//
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int num;
+	char choose;
+
+	do
+	{
+		cout << "Enter an integer number to be checked: \n";
+		cin >> num;
+		if (num % 2 == 0)
+		{
+			cout << "The number is Even.\n";
+		}
+		else
+		{
+			cout << "The number is Odd.\n";
+		}
+		cout << "Enter Y or y to check another number: \n";
+		cin >> choose;
+	} while (choose == 'Y' || choose == 'y');
+
+	cout << "End of Program.\n";
+	return 0;
+}
